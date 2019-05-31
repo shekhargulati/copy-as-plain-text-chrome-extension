@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Copy As Plain Text",
+    "description": "Allows you to copy text as plain text. Useful when you don't want to copy style with text.",
+    "version": "1",
+    "author": "Shekhar Gulati",
+    "permissions": [
+        "contextMenus"
+    ],
+    "background": {
+        "persistent": false,
+        "scripts": [
+            "index.js"
+        ]
+    }
+}
