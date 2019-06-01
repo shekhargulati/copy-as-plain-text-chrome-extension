@@ -1,16 +1,18 @@
-Google Chrome Copy as Plain Text Extension
+Copy-as-Plain-Text Google Chrome Extension
 ----
 
-This is a simple Google Chrome extension that adds copy as plain text context menu option. 
+This is a simple extension that adds a copy-as-plain-text context menu option to Google Chrome.
 
-To use, clone this repository on your machine.
+To use, clone this repository to your computer.
 
 ```
 $ git clone git@github.com:shekhargulati/copy-as-plain-text-chrome-extension.git
 ```
 
-Go to [extensions](chrome://extensions/) page.
+Install with these steps:
 
-Add the extension by clicking *Load Unpacked* button.
+1. Go to the Chrome [extensions](chrome://extensions/) page.
+2. Turn on *Developer mode* to enable loading *unpacked extensions*.
+3. Add the extension by clicking *Load Unpacked* button, and select the source directory.
 
-Once added, new context menu option will be available.
+After the extension is added, a new context menu option will be available.
