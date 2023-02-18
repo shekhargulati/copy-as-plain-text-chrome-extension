@@ -5,12 +5,21 @@
     "version": "1",
     "author": "Shekhar Gulati",
     "permissions": [
-        "contextMenus"
+        "contextMenus",
+        "activeTab"
     ],
     "background": {
         "persistent": false,
         "scripts": [
             "index.js"
         ]
+    },
+    "commands": {
+        "copy" : {
+            "suggested_key": {
+                 "default": "Alt+C" 
+            },
+            "description": "Copy as Plain Text"
+        }
     }
 }
